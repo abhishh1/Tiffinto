@@ -1,0 +1,249 @@
+name: app4
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_boxicons: ^1.1.0
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.7.0
+  google_sign_in: ^4.2.0
+  firebase_analytics: ^5.0.11
+  firebase_core: ^0.4.4
+  firebase_auth: ^0.15.5+3
+  cloud_firestore: ^0.13.4
+  flutter_dialpad: ^0.0.6+2
+  url_launcher: ^5.0.3
+  vector_math: ^2.0.8
+  firebase_messaging: ^6.0.13
+  geolocator: ^5.3.1
+  protobuf: <=0.13.15
+  rxdart: ^0.23.1
+  flutter_geofire: ^1.0.3
+  geoflutterfire: ^2.1.0
+  google_maps_flutter: ^0.5.25+1
+  map_controller: ^0.7.0
+  eva_icons_flutter: ^2.0.0
+  http: ^0.12.0+1
+  json_serializable: ^2.0.2
+  curved_navigation_bar: ^0.3.2
+  lottie: ^0.3.3
+  css_colors: ^1.0.2
+  carousel_slider: ^1.4.1
+  flutter_map: ^0.8.2
+  firebase_storage: ^3.1.5
+  carousel_pro: ^1.0.0
+  provider: ^4.0.4
+  flutter_spinkit: "^4.1.2"
+  pedantic: ^1.4.0
+  build_runner: ^1.2.7  
+  flutter_launcher_icons: ^0.7.4
+  page_transition: ^1.1.5
+
+dev_dependencies:
+  
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:    
+ android: true    
+ ios: true    
+ image_path: "assets/icon/qq.jpg"  
+
+
+
+flutter:
+
+ 
+  uses-material-design: true
+  
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Bold.ttf
+        - asset: fonts/Ubuntu-regular.ttf
+    - family: Bangers
+      fonts:
+      - asset: fonts/Bangers-Regular.ttf
+    
+    - family: Slackey
+      fonts:
+      - asset: fonts/Slackey-Regular.ttf  
+
+    - family: PermanentMarker
+      fonts:
+      - asset: fonts/PermanentMarker-Regular.ttf  
+
+    - family: Prestage
+      fonts:
+      - asset: fonts/Prestage.ttf     
+    
+    - family: Reso
+      fonts:
+      - asset: fonts/ResotE.ttf   
+      
+    - family: Rockdiz
+      fonts:
+      - asset: fonts/Rockdiz.ttf 
+
+    - family: Soda
+      fonts:
+      - asset: fonts/Rockinsoda.ttf  
+      
+    - family: don
+      fonts:
+      - asset: fonts/Donaldson.ttf   
+
+    - family: varna
+      fonts:
+      - asset: fonts/varna.ttf     
+
+    - family: Reich
+      fonts:
+      - asset: fonts/reich.ttf      
+      
+    - family: Job
+      fonts:
+      - asset: fonts/Job.ttf   
+
+    - family: Presa
+      fonts:
+      - asset: fonts/Presa_ultralight.ttf  
+    
+    - family: Alex
+      fonts:
+      - asset: fonts/Alexandria-Script.ttf   
+
+    - family: donee
+      fonts:
+      - asset: fonts/Donne.otf     
+
+    - family: Spicy
+      fonts:
+      - asset: fonts/SpicyRice-Regular.ttf    
+
+    - family: Roboto
+      fonts:
+      - asset: fonts/RobotoMono-Regular.ttf
+       
+
+  assets:
+
+    - assets/list8.jpg
+    - assets/list7.png
+    - assets/list6.png
+    - assets/list3.jpg
+    - assets/list2.jpg
+    - assets/list1.jpg
+    - assets/search.png
+    - assets/location.png
+    - assets/vovo.png
+    - assets/new12e.png
+    - assets/tif.png
+    - assets/newb.png
+    - assets/newa.jpg
+    - assets/qq.jpg
+    - assets/new8.jpg
+    - assets/new10.jpg
+    - assets/king.jpg
+    - assets/new12.png
+    - assets/new11.jpg
+    - assets/new11e.jpg
+    - assets/green.jpg
+    - assets/new9.jpg
+    - assets/wall3.jpg
+    - assets/new1.jpg
+    - assets/new2.jpg
+    - assets/new3.jpg
+    - assets/new4.jpg
+    - assets/wall2e.jpg
+    - assets/bird.jpg
+    - assets/wall2.jpg
+   
+    - assets/img.jpg
+    - assets/img1.jpg
+    - assets/splash.flr
+    - assets/thali.jpg
+    - assets/burger.jpg
+    - assets/chicken.jpg
+    - assets/aalu.jpg
+    - assets/Pav-Bhaji.jpg
+    - assets/pizza.jpg
+    - assets/pp.jpg
+    - icons/veg.png
+    - icons/fish.png
+    - icons/tiffin1.png
+    - icons/tomato1.png
+    - icons/chicken.png
+    - icons/sandwich.png
+    - icons/scooter.png
+    - assets/dish.png
+    - assets/sp1.jpg
+    - assets/sp2.jpg
+    - assets/sp3.jpg
+    - icons/drink.png
+    - assets/download.jpg
+    - assets/wall.jpeg
+    - assets/veg.png
+    - assets/chic.jpg
+    - assets/tiffin.jpg
+    - assets/special.png
+    - assets/special2.png
+    - assets/special3.png
+    - assets/Special4.png
+    - assets/Special5.png
+    - assets/Special6.png
+    - assets/Special7.png
+    - assets/boil.png
+    - assets/knife.png
+    - assets/soup.png
+    - assets/discount.png
+    - assets/new.png
+    - assets/chef.png
+    - assets/cooking.png
+    - assets/delivery.png
+   
+    - assets/mutton.jpg
+    - assets/biryani.jpg
+    - assets/aalumatar.jpg
+    - assets/pic1.jpg
+    - assets/pic2.jpg
+    - assets/card.png
+   
+    - assets/back1half.jpg
+    - assets/back2.jpg
+    - assets/back2half1e.jpg
+    - assets/back2half1.jpg
+    - assets/chicken1.png
+    - assets/paneer1.jpg
+    
+    - assets/profile.jpg
+    - assets/thali1.jpg
+    - assets/thali0.jpg
+    - assets/thali4.jpg
+    - assets/thali5.jpg
+    - assets/thali6.png
+    - assets/res1.jpg
+    - assets/res2.jpg
+    - assets/res3.jpg
+    - assets/gg.jpg
+    - assets/rr.jpg
+    - assets/bb.jpg
+    - assets/menu.jpg
+    - assets/rice.jpg
+    - assets/sweets.jpg
+    - assets/roti.jpg
+    - assets/sabji.jpg
+    - assets/new4e.jpg
+
+    
+   
+  
